@@ -10,10 +10,10 @@ class Hero {
     }
 }
 
-let mage = new hero("Aurelius", 300, "mago", "magia")
-let warrior = new hero("Gengis Khan", 40, "guerreiro", "espada")
-let monk = new hero("Dalai Lama", 88, "monge", "artes marciais")
-let ninja = new hero("Hattori Hanzo", 45, "ninja", "shuriken")
+let mage = new Hero("Aurelius", 300, "mago", "magia")
+let warrior = new Hero("Gengis Khan", 40, "guerreiro", "espada")
+let monk = new Hero("Dalai Lama", 88, "monge", "artes marciais")
+let ninja = new Hero("Hattori Hanzo", 45, "ninja", "shuriken")
 
 mage.writeAttack()
 warrior.writeAttack()
